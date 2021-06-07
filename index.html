@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pokémon - The Beginning</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="slider.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="content">
+		<section>
+			<p class="text">
+				In each Pokémon game, the Professor coming from your native town gives you a Pokémon so you can travel in the world with and meet new creatures. Today is your 10th birthday and the Professor Oak has something really special to give you : your first Pokémon.
+				You will have the choice between the three Pokémon above: Bulbasaur, Charmander and Squirtle. Those Pokémon are unique in Kanto region so you need to choose wisely.
+
+			</p>
+
+			<div class="slider">
+				<img src="bulbasaur.png" alt="Bulbasaur" id="slide">
+				<div id="previous" onclick="changeSlide(-1)"><</div>
+				<div id="next" onclick="changeSlide(+1)">></div>
+			</div>
+
+
+			<div>
+				<p class="bulb">
+				Bulbasaur is a grass and poison type Pokémon. It is the best choice if you want to start your adventure easy and its offensive and defensive stats are balanced. At level 16, it evolves in Ivysaur and learns new moves. At level 36, it evolves into Venusaur, its final form.
+				</p>
+
+				<p class="char">
+					Charmander is a fire-type Pokémon. It is the most offensive Pokémon between the three but the beginning of your adventure will be quiet difficult. At level 16, it evolves into Charmeleon and becomes stronger. At level 36, it finally evolves in Charizard and get the flying type.
+				</p>
+
+				<p class="squi">
+					Squirtle is a water-type Pokémon. It is the most defensive Pokémon between the three and it does not make your adventure easier or harder. At level 16, it evolves into Wartortle and becomes harder to faint. At level 36, it reachs its final form : Blastoise.
+				</p>
+			</div>
+
+
+			<p class="text">Here is the Kanto region you are going to travel in !</p>
+			<img src="map.png">
+		</section>
+
+		<aside>
+			<h1>Other topics: </h1>
+			<p class="text">Competitive Pokemon?</p>
+			<img src="competitive.jpg">
+			<p class="text">Mobile app</p>
+			<img src="mobile.png">
+		</aside>
+	</div>
+</body>
+</html>
